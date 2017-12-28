@@ -1,0 +1,75 @@
+* {
+  font-family:sans-serif;
+}
+label {
+  font-weight:bold;
+}
+
+#nav {
+  background-color:#2B78E5;
+  color:white;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+#title {
+  margin-left:2%;
+}
+#sign-in {
+  margin-right:2%;
+}
+.form-group-in {
+  display:inline-block;
+  margin-left:3px;
+}
+.form-group-in > * {
+  font-weight:bold;
+  display:block;
+}
+
+#blurb {
+  float:left;
+  width:55%;
+  transform:translate(5%, 50%);
+}
+#connect-blurb {
+  font-weight:bold;
+}
+
+#sign-up {
+  float:right;
+  width:42%;
+  transform:translateX(-5%)
+}
+.form-group-out {
+  margin-bottom:5px;
+}
+.form-group-out > input {
+  width:100%;
+}
+.form-group-out:first-child {
+  display:flex;
+  justify-content:space-between;
+}
+.form-group-out:first-child > input {
+  width:49%;
+}
+#birthday-label {
+  margin-bottom:2px;
+  display:block;
+} 
+.form-group-out:last-child input {
+  background-color:#249E0E;
+  color:white;
+  border:1px solid black;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
